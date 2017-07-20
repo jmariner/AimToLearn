@@ -16,6 +16,8 @@ The player, shown as a ship, is moved with <kbd>&larr;</kbd> and <kbd>&rarr;</kb
 * The game ([currently][2]) runs at 100 updates per second, which runs on a second thread (see [GameLoop.java][3]). This updates whatever is currently being shown on the screen using each screen's `tick()` method ([example][4]).
 * Music is from Megaman, [Cirno Fortress Stage 2][5]
 
+### [Case Study Repository][8]
+
 [1]:/src/resources/aimtolearn/QnA.json
 [GSON]:https://github.com/google/gson
 [7]:/src/java/aimtolearn/Game.java#L91
@@ -24,3 +26,4 @@ The player, shown as a ship, is moved with <kbd>&larr;</kbd> and <kbd>&rarr;</kb
 [4]:/src/java/aimtolearn/screens/ShipScreen.java#L95
 [5]:https://www.youtube.com/watch?v=TM14q3UHYSg
 [6]:/src/resources/aimtolearn/img/splash_logo.png
+[8]:https://github.com/ECPI-CIS319-Group3/Aim-to-Learn
