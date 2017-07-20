@@ -1,4 +1,4 @@
-# Aim to Learn
+![Aim To Learn][6]
 
 ## Game Info
 
@@ -11,7 +11,16 @@ The player, shown as a ship, is moved with <kbd>&larr;</kbd> and <kbd>&rarr;</kb
 
 ## Technical Information
 
-* Questions are loaded from a [JSON file](/AimToLearn/src/resources/aimtolearn/QnA.json) using Google's [GSON](https://github.com/google/gson) library.
-* Each screen is contained within its own `JPanel` and those are swapped between on-the-fly by using `JFrame.setContentPane(...)`. See [Game.java](/src/java/aimtolearn/Game.java#L91).
-* The game ([currently](/src/java/aimtolearn/Constants.java#L21)) runs at 100 updates per second, which runs on a second thread (see [GameLoop.java](/src/java/aimtolearn/GameLoop.java)). This updates whatever is currently being shown on the screen using each screen's `tick()` method ([example](/src/java/aimtolearn/screens/ShipScreen.java#L95)).
-* Music is from Megaman, [Cirno Fortress Stage 2](https://www.youtube.com/watch?v=TM14q3UHYSg)
+* Questions are loaded from a [JSON file][1] using Google's [GSON] library.
+* Each screen is contained within its own `JPanel` and those are swapped between on-the-fly by using `JFrame.setContentPane(...)`. See [Game.java][7].
+* The game ([currently][2]) runs at 100 updates per second, which runs on a second thread (see [GameLoop.java][3]). This updates whatever is currently being shown on the screen using each screen's `tick()` method ([example][4]).
+* Music is from Megaman, [Cirno Fortress Stage 2][5]
+
+[1]:/src/resources/aimtolearn/QnA.json
+[GSON]:https://github.com/google/gson
+[7]:/src/java/aimtolearn/Game.java#L91
+[2]:/src/java/aimtolearn/Constants.java#L21
+[3]:/src/java/aimtolearn/GameLoop.java
+[4]:/src/java/aimtolearn/screens/ShipScreen.java#L95
+[5]:https://www.youtube.com/watch?v=TM14q3UHYSg
+[6]:/src/resources/aimtolearn/img/splash_logo.png
